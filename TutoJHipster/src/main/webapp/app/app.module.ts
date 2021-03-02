@@ -14,6 +14,8 @@ import { FooterComponent } from './layouts/footer/footer.component';
 import { PageRibbonComponent } from './layouts/profiles/page-ribbon.component';
 import { ActiveMenuDirective } from './layouts/navbar/active-menu.directive';
 import { ErrorComponent } from './layouts/error/error.component';
+import { MyTicketsComponent } from './my-tickets/my-tickets.component';
+import { MyticketsComponent } from './mytickets/mytickets.component';
 
 @NgModule({
   imports: [
@@ -25,7 +27,16 @@ import { ErrorComponent } from './layouts/error/error.component';
     TutoJHipsterEntityModule,
     TutoJHipsterAppRoutingModule,
   ],
-  declarations: [MainComponent, NavbarComponent, ErrorComponent, PageRibbonComponent, ActiveMenuDirective, FooterComponent],
+  declarations: [
+    MainComponent,
+    NavbarComponent,
+    ErrorComponent,
+    PageRibbonComponent,
+    ActiveMenuDirective,
+    FooterComponent,
+    MyTicketsComponent,
+    MyticketsComponent,
+  ],
   bootstrap: [MainComponent],
 })
 export class TutoJHipsterAppModule {}
